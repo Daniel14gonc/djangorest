@@ -1,1 +1,47 @@
 envi
+environ
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore media files
+media/
+
+# Ignore static files
+staticfiles/
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore log files
+*.log
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python bytecode
+*.pyc
+
+# Ignore environment configuration
+.env
+
+# Ignore pipenv virtual environment
+Pipfile.lock

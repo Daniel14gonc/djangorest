@@ -11,9 +11,3 @@ router.register(r'users', views.UserViewSet, basename='user')
 urlpatterns = [
     path('', include(router.urls))
 ]
-
-# urlpatterns = format_suffix_patterns(urlpatterns)
-
-# urlpatterns += [
-#     path('api-auth/', include('rest_framework.urls'))
-# ]
